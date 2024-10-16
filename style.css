@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+}
+
+main {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+}
+
+main, section {
+    border: 1px solid black;
+}
+
+#tekst {
+    height: 30%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+#left {
+    background-color: greenyellow;
+}
+
+#right {
+    background-color: red;
+}
